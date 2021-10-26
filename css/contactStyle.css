@@ -1,0 +1,16 @@
+.info {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  float: left;
+  width: 45%;
+  text-align: center;
+  border-width: 1px;
+  background-color: rgba(114, 183, 161, 255);
+}
+.map {
+  float: right;
+  width: 50%;
+}
+#title {
+  text-align: center;
+}
