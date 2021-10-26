@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  margin: 0;
 }
 
 .row::after {
@@ -142,6 +143,14 @@ a {
   }
 }
 
+/* pantallas de máximo 490 px de ancho */
+@media screen and (max-width: 490px) {
+  #searchform {
+    right: 25%;
+    width: 15%;
+  }
+}
+
 .logo {
   float: left;
   width: 60%;
@@ -155,9 +164,9 @@ a {
 
 .field {
   display: flex;
+  position: relative;
   float: right;
   width: 35%;
-  flex-direction: row;
   box-shadow: 1px 1px 0 rgb(22, 160, 133), 2px 2px 0 rgb(22, 160, 133),
     3px 3px 0 rgb(22, 160, 133), 4px 4px 0 rgb(22, 160, 133),
     5px 5px 0 rgb(22, 160, 133), 6px 6px 0 rgb(22, 160, 133),
