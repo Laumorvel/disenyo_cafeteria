@@ -6,6 +6,8 @@
   text-align: center;
   border-width: 1px;
   background-color: rgba(114, 183, 161, 255);
+  font-size: 150%;
+  font-weight: bold;
 }
 .map {
   float: right;
@@ -25,15 +27,15 @@
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100%;
+    margin-top: 10%;
     top: 40px;
     width: 90%;
   }
   .map {
     position: absolute;
     margin-top: 50%;
-    height: 30%;
-    width: 90%;
+    width: 80%;
+    padding-left: 10%;
   }
   .footer {
     position: absolute;

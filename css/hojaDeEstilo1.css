@@ -143,13 +143,17 @@ a {
   }
 }
 
-/* pantallas de máximo 490 px de ancho */
+/* pantallas de máximo 490 px de ancho - moviles- */
 @media screen and (max-width: 490px) {
   #searchform {
     right: 25%;
     width: 15%;
   }
+  .footer img {
+    width: 20%;
+  }
   .menu {
+    width: auto;
   }
 }
 
