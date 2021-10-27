@@ -14,13 +14,13 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 2%;
 }
 
 .header {
   background-color: rgba(114, 183, 161, 255);
   color: #ffffff;
-  padding: 10px;
+  padding: 1%;
   display: flex;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .menu li {
-  padding: 8px;
-  margin-bottom: 7px;
+  padding: 6%;
+  margin-bottom: 8%;
   background-color: rgb(250, 213, 133);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -45,8 +45,8 @@
   background-color: rgba(243, 121, 122, 255);
   color: #ffffff;
   text-align: center;
-  font-size: 12px;
-  padding: 15px;
+  font-size: 70%;
+  padding: 1%;
 }
 
 .footer img {
@@ -149,6 +149,8 @@ a {
     right: 25%;
     width: 15%;
   }
+  .menu {
+  }
 }
 
 .logo {
@@ -171,7 +173,7 @@ a {
     3px 3px 0 rgb(22, 160, 133), 4px 4px 0 rgb(22, 160, 133),
     5px 5px 0 rgb(22, 160, 133), 6px 6px 0 rgb(22, 160, 133),
     7px 7px 0 rgb(22, 160, 133);
-  height: 40px;
+  height: 30%;
 }
 
 .field > input[type="text"] {
