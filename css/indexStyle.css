@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .fotoPortada{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+    .videoPortada {
+        width: 80%;
+        border-radius: 3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+
+  @media screen and (min-width: 600px) {
+    .fotoPortada{
+        width: 100%;
+        padding: 0px;
+
+      }
+      
+    .videoPortada {
+        width: 30%;
+        padding:2em;
+        border-radius: 3em;
+        
+
+      }
+  }
+
+

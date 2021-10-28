@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+   
+    .informacion{
+        background-color: red;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+ 
+    .todo{
+        display: flex;
+    }
+    .informacion{
+        background-color: red;
+        width: 50%;
+
+    }
+    .mapa{
+        width:50%;
+    }
+    iframe {
+        width:90%;
+        border-radius: 1em;
+
+    }
+  }
+}
