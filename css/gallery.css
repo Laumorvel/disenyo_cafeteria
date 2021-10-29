@@ -60,3 +60,11 @@ img {
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+
+img:active {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 50%;
+}
