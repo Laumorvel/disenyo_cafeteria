@@ -1,43 +1,23 @@
 html {
   box-sizing: border-box;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-.card img {
-  width: 100%;
-  height: 100%;
-}
 
-/* Three columns side by side */
+/* defino el ancho de la columna a un 25% y con el float left las pone una al lado de otra */
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-/* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
 .container::after,
 .row::after {
   content: "";
@@ -46,7 +26,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: rgba(114, 183, 161, 255);
 }
 
 .button {
@@ -55,12 +35,67 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: rgba(248, 194, 75, 255);
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-size: 130%;
+  font-weight: bold;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: rgba(123, 206, 209, 255);
+}
+
+.equipo {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* MÓVILES --> dispositivos con anchura igual o inferior a 480 */
+@media screen and (max-width: 480px) {
+  .column {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* tablet --> dispositivos con anchura mínima de 481 y máxima de 810*/
+@media screen and (min-width: 481px) and (max-width: 810px) {
+  .column {
+    width: 50%; /*reajusto el ancho de columna a un 50% para que se pongan dos arriba y dos abajo */
+    display: block;
+  }
+}
+
+/* ordenador --> dispositivos con anchura mínima de 811 y máxima de 1279 */
+@media screen and (min-width: 811px) and (max-width: 1279px) {
+  .container {
+    font-size: 85%;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  #name {
+    font-size: 140%;
+  }
+}
+/* ordenador hd dispositivos con anchura mínima de 1280*/
+@media screen and (min-width: 1280px) {
+  .container {
+    font-size: 85%;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  #name {
+    font-size: 140%;
+  }
 }
