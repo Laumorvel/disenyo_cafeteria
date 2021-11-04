@@ -1,59 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/hojaDeEstilos.css">
-        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-    </head>
-    <body>
 
-     <div class="header">
-        <a href="index.html" class="logo"><img src="img/MrCoffeBlanco.png" alt=""></a> 
-     
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reserva</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/hojaDeEstilos.css">
+    <link rel="stylesheet" href="./reservation.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo"><img src="img/MrCoffeBlanco.png" alt=""></a>
+
     </div>
-     
-        <div class="topnav" id="myTopnav">
-            <a href="reservation.html" class="active">Reservas</a>
-            <a href="menu.html">Menu</a>
-            <a href="gallery.html">Galería</a>
-            <a href="contact.html">Contacto</a>
-            <a href="index.html">Inicio</a>
-            <a href="aboutUs.html">Sobre nosotros</a>
-            <a class="icon">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
 
-    <div id="floatLeft">
-        <h1>Reserva tu mesa aquí</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="reservation.html" class="active">Reservas</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Galería</a>
+        <a href="contact.html">Contacto</a>
+        <a href="index.html">Inicio</a>
+        <a href="aboutUs.html">Sobre nosotros</a>
+        <a class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-        <div class="aside">
-            <img src="img/aside1.jpg">
+    <div id="content" class="content">
+        <div id="floatLeft">
+            <h1>BOOKINGS</h1>
+            <h2>Make a reservation</h2>
+            <div class="parrafo">
+                <p>Mr Coffee is open all-day Tuesday to Sunday from 6:30am until late. </p>
+                <p>You don’t need to make a reservation and we reserve space for walk-ins however it is advised if you are visiting for a special occasion. </p>
+                <p>We have implemented a safe, distanced table-plan and now have additional tables outside on the terrace.</p>
+                <p> If you’ve chosen Mr Coffee to celebrate any special occasion then let us know and we can book you a space for an aperitif and a home-made cake for you.</p>
+                <p> Please provide a contact telephone number or email address when booking in with us.</p>
+            </div>
         </div>
 
-        <div class="contenido">
-            <p>hola</p>>
+        <div id="contentForm" class="contentForm">
+            <form action="" class="form">
+                <fieldset class="first">
+                    <legend align="center">Personal data</legend>
+                    <div class="elem-group first_name"><label for="fname">First name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="Name..."></div>
+
+                    <div class="elem-group"><label for="surname">Surname: </label>
+                        <input type="text" name="surname" id="surname" placeholder="Surname..."></div>
+
+                    <div class="elem-group"><label for="id">ID: </label>
+                        <input type="text" name="id" id="id" placeholder="30243542M"></div>
+
+                    <div class="elem-group"><label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com"></div>
+
+                    <div class="elem-group"><label for="phone">Phone: </label>
+                        <input type="text" name="number" id="number" placeholder="685 654 128"></div>
+                </fieldset>
+
+                <fieldset class="second">
+                    <legend align="center">Reservation</legend>
+                    <div class="elem-group ">
+                        <label for="date">Date: </label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="elem-group ">
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" min="07:00" max="22:00" required>
+                    </div>
+
+                    <div class="elem-group area"> <label for="area">Choose your perfect area: </label><br>
+                        <input type="radio" name="area" id="exterior"><label for="exterior"> Outside</label><br>
+                        <input type="radio" name="area" id="interior"><label for="interior"> Inside</label>
+                    </div>
+
+                    <div class="elem-group ">
+                        <label for="adult">Adults</label>
+                        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                    </div>
+
+                    <div class="elem-group ">
+                        <label for="child">Children</label>
+                        <input type="number" id="child" name="total_children" placeholder="0" min="0" required>
+                    </div>
+
+                    <div class="elem-group">
+                        <label for="celebracion">Are we celebrating?</label>
+                        <select id="celebracion" name="celebracion" required>
+                            <option value="">Choose an option</option>
+                            <option value="no">Any special occasion</option>
+                            <option value="connecting">Birthday</option>
+                            <option value="adjoining">Retirement</option>
+                            <option value="adjacent">Anniversary</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset class="third">
+                    <legend align="center">Food allegies and requirements</legend>
+                    <div class="elem-group">
+                        <label for="message" class="message">Any allergy requirements?</label>
+                        <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                    </div>
+                    <div class="elem-group checkbox">
+                        <label for="checkbox"><input type="checkbox"> Accept terms and conditions</label>
+                    </div>
+                </fieldset>
+
+                <div class="button">
+                    <button type="submit">Book</button>
+                </div>
+            </form>
+
         </div>
 
-    </div>      
-     
+    </div>
 
 
-     <div class="footer">
+
+
+
+
+    <footer class="footer">
         <img src="img/MrCoffeeNegro.png">
         <br>
         <a href="">Política de Privacidad</a>
         <br>
         <a href="">Aviso legal</a>
-     </div>
-        
-        
-        <script src="js/script.js" async defer></script>
-    </body>
+    </footer>
+
+
+    <script src="js/script.js" async defer></script>
+</body>
+
 </html>
