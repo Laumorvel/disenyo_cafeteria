@@ -9,49 +9,347 @@
         <link rel="stylesheet" href="css/hojaDeEstilos.css">
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+<link rel="stylesheet" href="css/menuStyle.css">     
     </head>
     <body>
 
-     <div class="header">
+    <header class="header" id="head">
         <a href="index.html" class="logo"><img src="img/MrCoffeBlanco.png" alt=""></a> 
-     </div>
+    </header>
      
         <div class="topnav" id="myTopnav">
             <a href="menu.html" class="active">Menu</a>
-            <a href="gallery.html">Galería</a>
-            <a href="contact.html">Contacto</a>
-            <a href="index.html">Inicio</a>
-            <a href="reservation.html">Reservas</a>
-            <a href="aboutUs.html">Sobre nosotros</a>
+            <a href="gallery.html">Galery</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="aboutUs.html">About Us</a>
             <a class="icon">
               <i class="fa fa-bars"></i>
             </a>
           </div>
 
-    <div id="floatLeft">
-        <h1>Nuestra carta</h1>
 
-        <div class="aside">
-            <img src="img/aside1.jpg">
-        </div>
-
-        <div class="contenido">
-            <p>hola</p>>
-        </div>
-
-    </div>      
-     
+        <div class="contenido" align="center">
+            <h1>Our menu</h1>
+            <div>
+                <a class="enlaces" href="#desayunos"><p class="enlaces">Breakfasts </p></a>
+                <a class="enlaces" href="#sandwiches"><p class="enlaces"> Sandwiches </p></a>
+                <a class="enlaces" href="#ensaladas"><p class="enlaces"> Salads </p></a>
+                <a class="enlaces" href="#zumos"><p class="enlaces"> Smoothies</p></a>
+                <a class="enlaces" href="#dulces"><p class="enlaces"> Desserts</p></a>
+            </div>
 
 
-     <div class="footer">
+            <div id="desayunos">
+                <div class="tablaProductos">
+                    <table>
+                        <table  id="imgDesayuno">
+                            <img class="imagenesPro" src="img/pancakes.jpg"> 
+                        </table>
+                        <table  id="tableDesayuno">
+                            <tr>
+                                <th class="textoPro">BREAKFASTS</th>
+                            </tr>
+                            <tr>
+                                <th>Homemade 4.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Loaf with mixed seeds + butter + homemade jelly + coffee + orange juice </td>
+                            </tr>
+                            <tr>
+                                <th>Andalusian 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Rustic bread + olive oil + tomato + serrano jam + coffee + orange juice</td>
+                            </tr>
+                            <tr>
+                                <th>English 6.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Pancakes + caramel syrup + cranberries + cinnamon</td>
+                            </tr>
+                            <tr>
+                                <th>Parisian 4.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Croissant + butter + peach jelly + coffee + orange juice</td>
+                            </tr>
+                            <tr>
+                                <th>Mixed 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Crystal bread + melted cheese + butter + cooked jam + coffee + orange juice</td>
+                            </tr>
+                            <tr>
+                                <th>With eggs 6.9€</th>
+                            </tr>
+                            <tr>
+                                <td>French omelette + cooked jam + brie cheese + coffee + orange juice</td>
+                            </tr>
+                            <tr>
+                                <th>Energetic 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Wholemeal loaf + avocado cream+ smoked salmon + poached egg + coffee + orange juice</td>
+                            </tr>
+                            <tr>
+                                <td class="singluten">*All breakfasts have the option of GLUTEN FREE</td>
+                            </tr>
+                        </table>
+                    </table>
+                </div>
+            </div>
+            <div id="sandwiches">
+                <div class="tablaProductos">
+                    <table>
+                        <table id="imgSandwich">
+                            <img class="imagenesPro" src="img/sandwichh.jpg"> 
+                        </table>
+                        <table id="tableSandwich">
+                            <tr>
+                                <th class="textoPro">SANDWICHES</th>
+                            </tr>
+                            <tr>
+                                <th>Deluxe campero 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Braised ham + melted brie cheese + tomato + lettuce + truffle mayonnaise </td>
+                            </tr>
+                            <tr>
+                                <th>Veggie 4€</th>
+                            </tr>
+                            <tr>
+                                <td>Roasted vegetables + lettuce cream + spicy mayonnaise + red cabbage + mixed seeds</td>
+                            </tr>
+                            <tr>
+                                <th>Nordic 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Smoked salmon + red onions + cucumber + mascarpone with dill + arugula</td>
+                            </tr>
+                            <tr>
+                                <th>Mango chicken curry 5€</th>
+                            </tr>
+                            <tr>
+                                <td>Chicken + poached mango + curry + piquillo mayonnaise + cashew nuts + peppermint</td>
+                            </tr>
+                            <tr>
+                                <th>Club sándwich 4€</th>
+                            </tr>
+                            <tr>
+                                <td>Grilled chicken + bacon sauce + cherry tomato cream + lettuce + red onion</td>
+                            </tr>
+                            <tr>
+                                <th>Burger veggie 5€</th>
+                            </tr>
+                            <tr>
+                                <td>Bread + dried tomato cream + red onion + parmesan + basil</td>
+                            </tr>
+                            <tr>
+                                <th>Tropical 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Bread + pineapple + caramelized onion + bacon suace + basil cream</td>
+                            </tr>
+                            <tr>
+                                <td class="singluten">*All sandwiches have the option of GLUTEN FREE</td>
+                            </tr>
+                        </table>
+                    </table>
+                </div>
+            </div>
+            <div id="ensaladas">
+                <div class="tablaProductos">
+                    <table>
+                        <table id="imgEnsalada">
+                            <img class="imagenesPro" src="img/salad.jpg"> 
+                        </table>
+                        <table id="tableEnsalada">
+                            <tr>
+                                <th class="textoPro">SALADS</th>
+                            </tr>
+                            <tr>
+                                <th>Calibrate 6.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Mezclum + pasta + tuna + corn + cherrys + eggs + onion + olives + olive vinaigrette</td>
+                            </tr>
+                            <tr>
+                                <th>Thai salad 7.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Spinach + rice + chicken + avocado + mango + vinaigrette thai + shredded corn</td>
+                            </tr>
+                            <tr>
+                                <th>Salmon salad 7.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Mezclum + rice + beetroot + smoke salmon + red onion + yogurt  vinaigrette</td>
+                            </tr>
+                            <tr>
+                                <th>Power 7.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Arugula + quinoa + mushrooms + chicken + broccoli + genoese pesto + chickpeas</td>
+                            </tr>
+                            <tr>
+                                <th>Filo-mena 7.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Kale + rice + apple + pumpkin + roast + goat cheese + almonds</td>
+                            </tr>
+                            <tr>
+                                <th>Veggie salad 6.9€</th>
+                            </tr>
+                            <tr>
+                                <td>Spinach + quinoa + pumpkin + roasted vegetables + feta cheese + pumpkin seeds</td>
+                            </tr>
+                            <tr>
+                                <th>Catalina 8.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Kale + quinoa + buffalo burrata + cherrys tomato + roasted vegetables + balsamic vinegar</td>
+                            </tr>
+                            <tr>
+                                <td class="singluten" >*All salads are GLUTEN FREE</td>
+                            </tr>
+                            
+                        </table>
+                    </table>
+                </div>
+            </div>
+            <div id="zumos">
+                <div class="tablaProductos">
+                    <table>
+                        <table id="imgZumos">
+                            <img class="imagenesPro" id="smoothies" src="img/zumo.jpg"> 
+                        </table>
+                        <table id="tableZumos">
+                            <tr>
+                                <th class="textoPro">SMOOTHIES</th>
+                            </tr>
+                            <tr>
+                                <th>Green Apple 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Apple + basil + spinach + arugula + ginger</td>
+                            </tr>
+                            <tr>
+                                <th>Happy Orange day 5€</th>
+                            </tr>
+                            <tr>
+                                <td>Carrots + orange + peach + ginger + mango</td>
+                            </tr>
+                            <tr>
+                                <th>Super natural 3.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Pineapple + banana + lettuce + mango + blueberries + berries + fruit of the passion</td>
+                            </tr>
+                            <tr>
+                                <th>Berry nana 3.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Orange + banana + strawberry + blueberries + papaya extract </td>
+                            </tr>
+                            <tr>
+                                <th>Sweet beet - Red detox 5€</th>
+                            </tr>
+                            <tr>
+                                <td>Berries + beetroot + orange + red apple + blueberries + fruit of the passion</td>
+                            </tr>
+                            <tr>
+                                <th>Super green 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Spinach + pineapple + orange juice + green apple + ginger + arugula + lettuce</td>
+                            </tr>
+                            <tr>
+                                <th>Juices 3€</th>
+                            </tr>
+                            <tr>
+                                <td>Of orange, peach, watermelon, grape, grapefruit, pineapple, mango, berries, tropical, cherry</td>
+                            </tr>
+                            <tr>
+                                <td class="singluten">*All smoothies are GLUTEN FREE</td>
+                            </tr>
+                        </table>
+                    </table>
+                </div>
+            </div>
+            <div id="dulces">
+                <div class="tablaProductos">
+                    <table>
+                        <table id="imgDulces">
+                            <img class="imagenesPro" id="cereal" src="img/muesli.jpg"> 
+                        </table>
+                        <table id="tableDulces">
+                            <tr>
+                                <th class="textoPro">DESSERTS</th>
+                            </tr>
+                            <tr>
+                                <th>Yellow muesli 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Yogurt + muesli + fruit + honey + mixed nuts + blueberries </td>
+                            </tr>
+                            <tr>
+                                <th>Black muesli 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Yogurt + muesli + banana + black chocolate + caramel syrup</td>
+                            </tr>
+                            <tr>
+                                <th>Pink muesli 4.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Yogurt + muesli + strawberry + red berries + pitahaya </td>
+                            </tr>
+                            <tr>
+                                <th>Fruit salad 5€</th>
+                            </tr>
+                            <tr>
+                                <td>Apple + orange + kiwi + pear + blueberries </td>
+                            </tr>
+                            <tr>
+                                <th>Cookies 3.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Whit black chocolate or white chocolate or nuts or blackberries or ferrero</td>
+                            </tr>
+                            <tr>
+                                <th>Cakes 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>Red velvet, Lemons sweet, Carrots, Philadelphia cheese, White Chocolate, Strawberry vanilla</td>
+                            </tr>
+                            <tr>
+                                <th>Muffins XXL 6.5€</th>
+                            </tr>
+                            <tr>
+                                <td>With chocolate chips, filled with white chocolate, nuts, blackberries, red berries</td>
+                            </tr>
+                            <tr>
+                                <td class="singluten">*All Desserts are GLUTEN FREE</td>
+                            </tr>
+                            
+                        </table>
+                    </table>
+                </div>
+            </div>
+            <div id="divVolver">
+                <a href="#head" id="volver">BACK TO MENU</a>
+            </div>
+        </div>      
+
+    <footer class="footer">
         <img src="img/MrCoffeeNegro.png">
         <br>
-        <a href="">Política de Privacidad</a>
+        <a href="">Privacy Policy</a>
         <br>
-        <a href="">Aviso legal</a>
-     </div>
-        
+        <a href="">Legal warning</a>
+    </footer>
         
         <script src="js/script.js" async defer></script>
     </body>
