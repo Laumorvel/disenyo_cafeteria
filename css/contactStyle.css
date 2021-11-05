@@ -6,6 +6,8 @@ body{
 @media screen and (max-width: 480px) {
     .todo{
         margin:2em;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .informacion{
@@ -14,15 +16,19 @@ body{
         border-radius: 1em;
         padding-top: 2em;
         padding-bottom: 2em;
+        margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
+
     }
 
     .mapa{
         width:80%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 3em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+        margin-top: 4em;
     }
 
     iframe {
@@ -30,6 +36,12 @@ body{
         width:100%;
         height: 100%;
         border-radius: 1em;
+        
+
+    }
+
+    footer{
+        position:absolute;
     }
 }
 
@@ -65,41 +77,53 @@ body{
 
 @media screen and (min-width: 769px) and (max-width: 1279px)  {
     .todo{
-        display: flex;
-        padding:2em;  
+        margin-top: auto;
+        margin-bottom: auto;
+        padding:2em;   
     }
 
     .informacion{
         background-color: rgba(248, 194, 75, 255);;
-        width: 50%;
+        width: 80%;
         border-radius: 1em;
         padding-top: 5em;
         padding-bottom: 5em;  
-        margin-left: 2em;    
-        margin-right: 2em;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .mapa{
-        width:50%;  
+        width:100%;  
+        height: 180%;
+
+
     }
 
     iframe {
-        width:90%;
-        height: 100%;
+        width:80%;
+        height: 190%;
+        margin-top: 5em;
         border-radius: 1em;
 
     }
+
+    footer{
+        position:absolute;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
     .todo{
         display: flex;
         padding:2em;  
+
     }
 
     .informacion{
         background-color: rgba(248, 194, 75, 255);;
-        width: 50%;
+        width: 40%;
         border-radius: 1em;
         padding-top: 5em;
         padding-bottom: 5em;   
@@ -115,6 +139,9 @@ body{
         width:80%;
         height: 100%;
         border-radius: 1em;
+    }
+    footer{
+        position:absolute;
     }
 }
 
