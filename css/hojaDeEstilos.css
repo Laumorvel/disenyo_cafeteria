@@ -6,12 +6,15 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
+=======
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgba(123, 206, 209, 255);
@@ -108,12 +111,29 @@
   }
 }
 
+<<<<<<< HEAD
 h1 {
   padding-top: 2%;
   text-align: center;
   padding-bottom: 2%;
+=======
+#floatLeft div {
+  padding: 2%;
+  float: left;
+}
+
+/* Container holding the image and the text */
+
+h1 {
+  padding-top: 2%;
+  text-align: center;
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 }
 
 .contenido {
   width: 60%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00

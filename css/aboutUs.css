@@ -1,23 +1,60 @@
 html {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 /* defino el ancho de la columna a un 25% y con el float left las pone una al lado de otra */
 .column {
   float: left;
   width: 25%;
+=======
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
+<<<<<<< HEAD
+=======
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
+=======
+/* Some left and right padding inside the container */
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 .container {
   padding: 0 16px;
 }
 
+<<<<<<< HEAD
+=======
+/* Clear floats */
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 .container::after,
 .row::after {
   content: "";
@@ -26,7 +63,11 @@ html {
 }
 
 .title {
+<<<<<<< HEAD
   color: rgba(114, 183, 161, 255);
+=======
+  color: grey;
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 }
 
 .button {
@@ -35,6 +76,7 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
+<<<<<<< HEAD
   background-color: rgba(248, 194, 75, 255);
   text-align: center;
   cursor: pointer;
@@ -98,4 +140,14 @@ a {
   #name {
     font-size: 140%;
   }
+=======
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
 }
