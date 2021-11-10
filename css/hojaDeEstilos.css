@@ -7,6 +7,8 @@
 }
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
@@ -15,6 +17,7 @@
 
 =======
 >>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgba(123, 206, 209, 255);
@@ -112,11 +115,14 @@
 }
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 h1 {
   padding-top: 2%;
   text-align: center;
   padding-bottom: 2%;
 =======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 #floatLeft div {
   padding: 2%;
   float: left;
@@ -127,7 +133,10 @@ h1 {
 h1 {
   padding-top: 2%;
   text-align: center;
+<<<<<<< HEAD
+=======
 >>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 }
 
 .contenido {
@@ -135,5 +144,9 @@ h1 {
 <<<<<<< HEAD
 }
 =======
+<<<<<<< HEAD
+}
+=======
 }
 >>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0

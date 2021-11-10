@@ -6,6 +6,11 @@ body{
 @media screen and (max-width: 480px) {
     .todo{
         margin:2em;
+<<<<<<< HEAD
+        margin-top: auto;
+        margin-bottom: auto;
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 
     .informacion{
@@ -14,15 +19,28 @@ body{
         border-radius: 1em;
         padding-top: 2em;
         padding-bottom: 2em;
+<<<<<<< HEAD
+        margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
+
+=======
+        margin-left: auto;
+        margin-right: auto;
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 
     .mapa{
         width:80%;
         margin-left: auto;
         margin-right: auto;
+<<<<<<< HEAD
+        padding-top: 2em;
+        padding-bottom: 5em;
+        margin-top: 4em;
+=======
         padding-top: 3em;
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 
     iframe {
@@ -30,6 +48,15 @@ body{
         width:100%;
         height: 100%;
         border-radius: 1em;
+<<<<<<< HEAD
+        
+
+    }
+
+    footer{
+        position:absolute;
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 }
 
@@ -65,12 +92,48 @@ body{
 
 @media screen and (min-width: 769px) and (max-width: 1279px)  {
     .todo{
+<<<<<<< HEAD
+        margin-top: auto;
+        margin-bottom: auto;
+        padding:2em;   
+=======
         display: flex;
         padding:2em;  
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 
     .informacion{
         background-color: rgba(248, 194, 75, 255);;
+<<<<<<< HEAD
+        width: 80%;
+        border-radius: 1em;
+        padding-top: 5em;
+        padding-bottom: 5em;  
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mapa{
+        width:100%;  
+        height: 180%;
+
+
+    }
+
+    iframe {
+        width:80%;
+        height: 190%;
+        margin-top: 5em;
+        border-radius: 1em;
+
+    }
+
+    footer{
+        position:absolute;
+    }
+
+=======
         width: 50%;
         border-radius: 1em;
         padding-top: 5em;
@@ -89,17 +152,26 @@ body{
         border-radius: 1em;
 
     }
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 }
 
 @media screen and (min-width: 1280px) {
     .todo{
         display: flex;
         padding:2em;  
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
     }
 
     .informacion{
         background-color: rgba(248, 194, 75, 255);;
+<<<<<<< HEAD
+        width: 40%;
+=======
         width: 50%;
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
         border-radius: 1em;
         padding-top: 5em;
         padding-bottom: 5em;   
@@ -116,6 +188,12 @@ body{
         height: 100%;
         border-radius: 1em;
     }
+<<<<<<< HEAD
+    footer{
+        position:absolute;
+    }
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 }
 
 
