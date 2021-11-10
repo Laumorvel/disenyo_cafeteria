@@ -102,10 +102,6 @@
   }
 }
 
-#floatLeft div {
-  padding: 2%;
-  float: left;
-}
 
 /* Container holding the image and the text */
 
@@ -116,7 +112,5 @@ h1 {
 }
 
 .contenido {
-  width: 100%;
-  margin: auto;
-  padding: auto;
+  width: 60%;
 }
