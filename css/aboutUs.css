@@ -1,6 +1,16 @@
 html {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+/* defino el ancho de la columna a un 25% y con el float left las pone una al lado de otra */
+.column {
+  float: left;
+  width: 25%;
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 *,
 *:before,
 *:after {
@@ -15,10 +25,19 @@ html {
 .column {
   float: left;
   width: 33.3%;
+<<<<<<< HEAD
+=======
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
@@ -28,16 +47,34 @@ html {
 }
 
 /* Add some shadows to create a card effect */
+<<<<<<< HEAD
+=======
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 /* Some left and right padding inside the container */
+=======
+<<<<<<< HEAD
+=======
+/* Some left and right padding inside the container */
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 .container {
   padding: 0 16px;
 }
 
+<<<<<<< HEAD
 /* Clear floats */
+=======
+<<<<<<< HEAD
+=======
+/* Clear floats */
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 .container::after,
 .row::after {
   content: "";
@@ -46,7 +83,15 @@ html {
 }
 
 .title {
+<<<<<<< HEAD
   color: grey;
+=======
+<<<<<<< HEAD
+  color: rgba(114, 183, 161, 255);
+=======
+  color: grey;
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 }
 
 .button {
@@ -55,6 +100,74 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  background-color: rgba(248, 194, 75, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgba(123, 206, 209, 255);
+}
+
+.equipo {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* MÓVILES --> dispositivos con anchura igual o inferior a 480 */
+@media screen and (max-width: 480px) {
+  .column {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* tablet --> dispositivos con anchura mínima de 481 y máxima de 810*/
+@media screen and (min-width: 481px) and (max-width: 810px) {
+  .column {
+    width: 50%; /*reajusto el ancho de columna a un 50% para que se pongan dos arriba y dos abajo */
+    display: block;
+  }
+}
+
+/* ordenador --> dispositivos con anchura mínima de 811 y máxima de 1279 */
+@media screen and (min-width: 811px) and (max-width: 1279px) {
+  .container {
+    font-size: 85%;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  #name {
+    font-size: 140%;
+  }
+}
+/* ordenador hd dispositivos con anchura mínima de 1280*/
+@media screen and (min-width: 1280px) {
+  .container {
+    font-size: 85%;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  #name {
+    font-size: 140%;
+  }
+=======
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -63,4 +176,8 @@ html {
 
 .button:hover {
   background-color: #555;
+<<<<<<< HEAD
+=======
+>>>>>>> 39f24a283b3288addcfce53648feca2072afbb00
+>>>>>>> 8408623603c2cd7eeec1174c7417cff2da20b8f0
 }
